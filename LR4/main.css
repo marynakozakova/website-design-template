@@ -1,0 +1,87 @@
+
+body{
+  background: #f6f0f3;
+}
+.container{
+  padding: 0 100px;
+}
+
+.header{
+  background: #eeaf07;
+  height: 100px;
+  width: 10%;
+  float: left;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.navigation{
+  background: #101621;
+  height: 100px;
+  width: 90%;
+  float: right;
+}
+
+.navigation-list{
+  display: flex;
+  justify-content: space-between;
+}
+.content1{
+  background: #2f5f67;
+  height: 50px;
+  width: 100%;
+  float: left;
+  clear: left;
+}
+
+.content2{
+  background: #601c60;
+  height: 250px;
+  width: 100%;
+  float: left;
+}
+
+.content3{
+  background: #105547;
+  height: 350px;
+  width: 100%;
+  float: left;
+}
+
+.footer{
+  background: #809223;
+  height: 237px;
+  width: 100%;
+  float: left;
+}
+
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле*/
+  padding-left: 0; /*убираем левый отступ*/
+}
+
+li {
+  display: inline;
+  font-family: "Leelawadee UI";
+  margin-right:5px; /*Добавляем отступ у пунктов меню*/
+  width: 16%;
+  transition: 0.2s ease-out;
+  text-align: center;
+  padding: 40px 0;
+}
+
+a{
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  color:#fff; /*меняем цвет ссылок*/
+  font-family: "Leelawadee UI", sans-serif; /*меняем шрифт*/
+  font-size: 18px;
+}
+
+li:hover {
+  background: #020209;/*добавляем эффект при наведении*/
+}
